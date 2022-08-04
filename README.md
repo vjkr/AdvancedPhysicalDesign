@@ -87,3 +87,51 @@ One good reference https://github.com/ShonTaware
  2. to exit safely from a ```less``` command press q. Ctrl+B stops complete bash 
 
 </details>
+
+# DAY -1 ADVANCED PHYSICAL DESIGN USING OPENLANE/SKY130
+<details>
+<summary> THEORY </summary>
+  
+## Good floorplan vs bad floorplan and introduction to library cells
+  1. Wafers are madeup of Die. Die is madeup of cores.  
+  ![image](https://user-images.githubusercontent.com/16399079/182810513-09f5173b-618d-4070-8ef4-8e3e6759e1e8.png)
+  2. Utilization factor is area taken up by standard cells forming the core to the area of core.
+  ![image](https://user-images.githubusercontent.com/16399079/182810386-67eb8244-85cb-4d3a-9351-03281e7b93de.png)
+  3. Preplaced cells are the IPs which are placed at user defined locations. Remaining logical cells are placed by automated placement and routing.
+  4. New way of defining noise margins.
+  ![image](https://user-images.githubusercontent.com/16399079/182820609-8d75bf21-9834-499b-b415-0f8453727752.png)
+  5. Decoupling capacitor decouples a ciruit receiving supply from the supply which is at a far place.
+  ![image](https://user-images.githubusercontent.com/16399079/182832384-2c9862ab-eee5-4fd9-85f4-27f681730b1c.png)
+  6. Power planning to avoid voltage droop and ground bounce
+  ![image](https://user-images.githubusercontent.com/16399079/182865684-0923efdb-ed3d-467c-91a4-65a6f5788882.png)
+  7. Solution
+  ![image](https://user-images.githubusercontent.com/16399079/182866140-7f94e8f5-2c78-48e5-90ba-4d05fc25395c.png)
+  ![image](https://user-images.githubusercontent.com/16399079/182866602-87b724bb-58e7-4d62-84f1-aeb94bee6a70.png)
+  8. Netlist is the connectivity of gates described using HDLs.
+  9. Block area for pins
+  ![image](https://user-images.githubusercontent.com/16399079/182869503-d8c5de54-cbf5-4403-a589-cd131ec02350.png)
+
+
+## Future Scope
+  1. Placement vs Floorplanning
+
+ 
+</details>
+
+<details>
+<summary> LAB </summary>
+  
+## System Configuration
+  1. 
+  
+## Day 1 progress
+  1. 
+
+ </details>
+
+<details>
+<summary> FAQ </summary>
+  
+ 1. 
+
+</details>
