@@ -88,7 +88,7 @@ One good reference https://github.com/ShonTaware
 
 </details>
 
-# DAY -1 ADVANCED PHYSICAL DESIGN USING OPENLANE/SKY130
+# DAY -2 ADVANCED PHYSICAL DESIGN USING OPENLANE/SKY130
 <details>
 <summary> THEORY </summary>
   
@@ -111,21 +111,21 @@ One good reference https://github.com/ShonTaware
   9. Block area for pins
   ![image](https://user-images.githubusercontent.com/16399079/182869503-d8c5de54-cbf5-4403-a589-cd131ec02350.png)
 
-
 ## Future Scope
   1. Placement vs Floorplanning
-
  
 </details>
 
 <details>
 <summary> LAB </summary>
-  
-## System Configuration
-  1. 
-  
-## Day 1 progress
-  1. 
+ 
+## Day 2 progress
+  1. Learn variable from openlane/configuration folder / README.md and remaining tcl files show default config of openlane for FP/ROUTING etc
+  ![image](https://user-images.githubusercontent.com/16399079/182871761-e3c163b3-7657-46c5-aa4b-19897a5890b2.png)
+  2. metals used for picorv32a design visit config.tcl under picorv32a. But somehow i couldnt see that info. I got
+  ![image](https://user-images.githubusercontent.com/16399079/182881423-58f5590b-64e7-41c7-a03a-3a93e4e214e1.png)
+
+
 
  </details>
 
