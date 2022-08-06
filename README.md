@@ -88,7 +88,7 @@ One good reference https://github.com/ShonTaware
 
 </details>
 
-# DAY -2 ADVANCED PHYSICAL DESIGN USING OPENLANE/SKY130
+# DAY -2 Good floorplan vs bad floorplan and introduction to library cells
 <details>
 <summary> THEORY </summary>
   
@@ -130,12 +130,38 @@ One good reference https://github.com/ShonTaware
   ![image](https://user-images.githubusercontent.com/16399079/183065821-c365352e-17db-4090-a5a3-26cdaf9039ab.png)
   6. Die area can be seen by visitin .def file in reults of floorplan
   ![image](https://user-images.githubusercontent.com/16399079/183066721-da252f4d-0009-4b7d-972e-92da244488e1.png)
-  7. 
+  7. Unable to invoke magic from working terminal. But it can be launched directly from magic folder. 
+  <img width="973" alt="image" src="https://user-images.githubusercontent.com/16399079/183234512-5e6ac7dd-6656-48d6-a958-0914e366f185.png">
+  Shoul have got this
+  <img width="594" alt="image" src="https://user-images.githubusercontent.com/16399079/183234523-3f38ab4e-1a1f-4470-a119-ea3df7fdf8c6.png">
+  
 
+ </details>
 
+<details>
+<summary> FAQ </summary>
+  
+ 1. 
 
+</details>
 
+# DAY -3 Design library cell using Magic Layout and ngspice characterization
+<details>
+<summary> THEORY </summary>
+  
+## Good floorplan vs bad floorplan and introduction to library cells
+  1. 
 
+## Future Scope
+  1. Placement vs Floorplanning
+ 
+</details>
+
+<details>
+<summary> LAB </summary>
+ 
+## Day 2 progress
+  1. 
  </details>
 
 <details>
