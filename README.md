@@ -124,6 +124,15 @@ One good reference https://github.com/ShonTaware
   ![image](https://user-images.githubusercontent.com/16399079/182871761-e3c163b3-7657-46c5-aa4b-19897a5890b2.png)
   2. metals used for picorv32a design visit config.tcl under picorv32a. But somehow i couldnt see that info. I got
   ![image](https://user-images.githubusercontent.com/16399079/182881423-58f5590b-64e7-41c7-a03a-3a93e4e214e1.png)
+  3. Metals to be used are to be specified in config.tcl. Point 3 above is wrong
+  4. tapcell is used for connecting nwell to vdd. decap around blocks and endcap at the pins.
+  5. We can see results of floorplan as below. opening png file in online lab instance caused freeaing. so avoiding
+  ![image](https://user-images.githubusercontent.com/16399079/183065821-c365352e-17db-4090-a5a3-26cdaf9039ab.png)
+  6. Die area can be seen by visitin .def file in reults of floorplan
+  ![image](https://user-images.githubusercontent.com/16399079/183066721-da252f4d-0009-4b7d-972e-92da244488e1.png)
+  7. 
+
+
 
 
 
