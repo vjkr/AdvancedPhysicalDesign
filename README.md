@@ -212,7 +212,7 @@ One good reference https://github.com/ShonTaware
   9. metallization by sputtering
   10. Final
   ![image](https://user-images.githubusercontent.com/16399079/183288986-594e44b5-45a8-4945-ba28-5f68a3c5d75a.png)
-
+  11. DRC for magic and google skywater using opencircuitdesign.com
 ## Future Scope
   1. 
   
@@ -237,6 +237,12 @@ One good reference https://github.com/ShonTaware
   7. ngspice initial results
   <img width="569" alt="image" src="https://user-images.githubusercontent.com/16399079/183301628-115701d7-a125-4eb1-b371-ad2d58573cd7.png">
 <img width="435" alt="image" src="https://user-images.githubusercontent.com/16399079/183301735-bbb8cd79-09d6-422a-aee5-821a534cba43.png">
+  8. rise time calculation 20% to 80%. usbtact xo values in ns. answer is 0.043ns
+  <img width="245" alt="image" src="https://user-images.githubusercontent.com/16399079/183301888-27c99e86-f530-488e-ad26-047166161e1e.png">
+  Temperature assumed
+  <img width="842" alt="image" src="https://user-images.githubusercontent.com/16399079/183301971-68ca3228-1c57-4c1b-b7d3-003ff372775c.png">
+  9. 
+
 
   
  </details>
