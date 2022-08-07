@@ -207,7 +207,12 @@ One good reference https://github.com/ShonTaware
   ![image](https://user-images.githubusercontent.com/16399079/183288080-c8ffe07b-49df-45f1-953f-4d03fa9e92a1.png)
   5. lambda=L/2
   6. Lightly doped drain LDD
-  7. 
+  7. sIDE Wall spacers
+  8. High Temp annealing
+  9. metallization by sputtering
+  10. Final
+  ![image](https://user-images.githubusercontent.com/16399079/183288986-594e44b5-45a8-4945-ba28-5f68a3c5d75a.png)
+
 ## Future Scope
   1. 
   
