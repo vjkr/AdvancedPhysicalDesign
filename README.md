@@ -193,19 +193,40 @@ One good reference https://github.com/ShonTaware
 <details>
 <summary> THEORY </summary>
   
-## 
-  1. 
-
+## VTC SPICE simulations
+  1. Understanding spice deck
+  ![image](https://user-images.githubusercontent.com/16399079/183286593-fbcc3c0c-0f80-4fdf-9c0e-288ec17be611.png)
+  2. keeping pmos 1.5 to 2 times NMOS will provide symmetrical dc transfer characteristics.
+  3. Switching threshold vm is the point where vin=vout.
+  4. calculating delay , rise and fall times
+## 16 mask process (Twin Tub)
+  1. LOCOS, Bird's Peak, LOCOs helps isolate transistors.
+  2. Ion plantation for forming wells for Pmos and nmos
+  3. Put in furnace, wells which are implanted expand by diffusion.
+  4. Gate formation is very important as it decides Vt. Vt is dependent on oxide Capacitance and doping concentration
+  ![image](https://user-images.githubusercontent.com/16399079/183288080-c8ffe07b-49df-45f1-953f-4d03fa9e92a1.png)
+  5. lambda=L/2
+  6. Lightly doped drain LDD
+  7. 
 ## Future Scope
-  1. Placement vs Floorplanning
- 
+  1. 
+  
 </details>
 
 <details>
 <summary> LAB </summary>
  
-## Day 2 progress
-  1. 
+## Day 3 progress
+  1. lEARNING PLACMENET OF IO PINS from automatic equidistant to custom 
+  set ::env(FP_IO_MODE) 2 IN FLOORPLAN.TCL
+  ![image](https://user-images.githubusercontent.com/16399079/183285684-15a2955b-199f-492b-9435-e69ba72aef38.png)
+  2. Unable to view any chnges happening. Same with earlier variations in all steps of flow. Complete tcl flow for all configs is to be studied
+  3. learning git clone and copied tech file
+  ![image](https://user-images.githubusercontent.com/16399079/183287304-7093d4f7-a486-4b74-a35f-befb5ea31570.png)
+  4. Observing layout
+  ![image](https://user-images.githubusercontent.com/16399079/183287372-22059863-d749-4819-a07e-1eefa96b799d.png)
+
+  
  </details>
 
 <details>
