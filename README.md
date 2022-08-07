@@ -232,6 +232,8 @@ One good reference https://github.com/ShonTaware
   ![image](https://user-images.githubusercontent.com/16399079/183287372-22059863-d749-4819-a07e-1eefa96b799d.png)
   5. Check functionality of  inverter using ngspice. first extract .ext file
   <img width="650" alt="image" src="https://user-images.githubusercontent.com/16399079/183299910-460a0869-f9d8-43aa-bd9a-2963c44b8b9d.png">
+  6. Getting transient analysis using spice deck
+  <img width="490" alt="image" src="https://user-images.githubusercontent.com/16399079/183300896-fa86066a-e6a0-4412-bcc6-5d987eb730f0.png">
 
   
  </details>
