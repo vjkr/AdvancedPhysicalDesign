@@ -117,8 +117,26 @@ One good reference https://github.com/ShonTaware
   ![image](https://user-images.githubusercontent.com/16399079/183276842-e360a257-3707-49cb-b15c-c0b055aa89db.png)
   3. Placement is placing of netlist (cells) onto a floor which is planned with input output pins, io padded and grid of supplies and preplaced cells if available. (Study more)
   ![image](https://user-images.githubusercontent.com/16399079/183276863-cfc525d1-818d-4177-908e-d92e491c58bf.png)
+  4. Repeaters are buffers which replicate the original signal and helps maintain signal integrity.
+  5. Insert repeaters by estimaitng wire length and capacitance.
+  6. Placing cells close to one another is abuttment which helps achieve very high speed.
+  
+  ## Library charcterization
+  1. Logic synthesis --> floorplan (size of die) --> placement (maintian timing) --> CTS (Clock should reach evrywhere on time) --> routing () --> STA (optional)
+  ![image](https://user-images.githubusercontent.com/16399079/183277577-07482156-51e9-44d3-af57-0057c3001cc6.png)
+  2. 
+  
+  ## Cell design flow
+  1.
+  ![image](https://user-images.githubusercontent.com/16399079/183278806-86333fe2-5ca6-43d4-b7af-5d01729e5169.png)
+  2. Use PDKs, rules, spice and lib user defined specs to design
+  3. Importance of analog design
+  ![image](https://user-images.githubusercontent.com/16399079/183279330-d8f39fd4-a148-4db6-a9f6-407e395d9b70.png)
+  4. Layout  
+  ![image](https://user-images.githubusercontent.com/16399079/183279579-d07b8187-6dd7-4c92-b15b-b9ca16264fad.png)
+  5. 
+  ![image](https://user-images.githubusercontent.com/16399079/183279621-a0a2f8fe-44de-4d17-bc28-d783c553585f.png)
 
-  4. 
 ## Future Scope
   1. Placement vs Floorplanning
  
@@ -147,6 +165,12 @@ One good reference https://github.com/ShonTaware
   9. S select V fit to window. left click bottom left- right click top right. click z for zooming
   10. Observe different parts of floorplan and standard cells at bottom left corner.
   ![image](https://user-images.githubusercontent.com/16399079/183276536-3f43b0fc-f03f-4d37-a74b-0b661875ef89.png)
+  11. use overwte option to prep design earlier completd synthesisized design.
+  12. Got results from placement folder using magic 
+  ![image](https://user-images.githubusercontent.com/16399079/183278211-37dbde46-1277-4627-9787-782b8355d9b6.png)
+  13. Observed mux, gates, m3, m4 , buffers vias etc taps decaps
+  ![image](https://user-images.githubusercontent.com/16399079/183278439-fe84f175-aec5-4490-9184-0c4a1617d330.png)
+  14
   
   
 
