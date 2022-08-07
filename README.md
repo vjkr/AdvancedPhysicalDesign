@@ -234,6 +234,9 @@ One good reference https://github.com/ShonTaware
   <img width="650" alt="image" src="https://user-images.githubusercontent.com/16399079/183299910-460a0869-f9d8-43aa-bd9a-2963c44b8b9d.png">
   6. Getting transient analysis using spice deck
   <img width="490" alt="image" src="https://user-images.githubusercontent.com/16399079/183300896-fa86066a-e6a0-4412-bcc6-5d987eb730f0.png">
+  7. ngspice initial results
+  <img width="569" alt="image" src="https://user-images.githubusercontent.com/16399079/183301628-115701d7-a125-4eb1-b371-ad2d58573cd7.png">
+<img width="435" alt="image" src="https://user-images.githubusercontent.com/16399079/183301735-bbb8cd79-09d6-422a-aee5-821a534cba43.png">
 
   
  </details>
