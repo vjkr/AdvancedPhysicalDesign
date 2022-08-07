@@ -64,7 +64,6 @@ One good reference https://github.com/ShonTaware
   2. prepare one design for running 
   ![image](https://user-images.githubusercontent.com/16399079/182762922-3592d927-522d-4682-93b1-0e801564a733.png)
   3. many designs are available at
-  
   ![image](https://user-images.githubusercontent.com/16399079/182763061-ea3930a1-8a03-49b4-8da0-39964111b8a5.png)
   4. prep command prepares picorv32a design with following environment (folder named timestamp are obtained)
   
@@ -121,10 +120,17 @@ One good reference https://github.com/ShonTaware
   5. Insert repeaters by estimaitng wire length and capacitance.
   6. Placing cells close to one another is abuttment which helps achieve very high speed.
   
-  ## Library charcterization
+  ## Library and timing charcterization
   1. Logic synthesis --> floorplan (size of die) --> placement (maintian timing) --> CTS (Clock should reach evrywhere on time) --> routing () --> STA (optional)
   ![image](https://user-images.githubusercontent.com/16399079/183277577-07482156-51e9-44d3-af57-0057c3001cc6.png)
-  2. 
+  2. steps in characterization flow. GUNA software takes care of 1-8 steps.
+  ![image](https://user-images.githubusercontent.com/16399079/183284448-23934ee1-3306-44b0-90e9-f47eb423bd3c.png)
+  3. Timing characterization:
+  Slew is between cells. rise and fall for all signals.
+  ![image](https://user-images.githubusercontent.com/16399079/183284833-15c71b1c-42a1-4cae-910b-43dabb269808.png)
+  4. Propagation delay.Choosing threold points is very importnat
+    Negative delay is not permitted. wire delays are to be observed.
+  ![image](https://user-images.githubusercontent.com/16399079/183284970-43709e42-e8d6-45c7-b60c-3e9c781a6684.png)
   
   ## Cell design flow
   1.
@@ -187,7 +193,7 @@ One good reference https://github.com/ShonTaware
 <details>
 <summary> THEORY </summary>
   
-## Good floorplan vs bad floorplan and introduction to library cells
+## 
   1. 
 
 ## Future Scope
