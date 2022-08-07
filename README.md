@@ -92,7 +92,7 @@ One good reference https://github.com/ShonTaware
 <details>
 <summary> THEORY </summary>
   
-## Good floorplan vs bad floorplan and introduction to library cells
+## Floorplanning and considerations
   1. Wafers are madeup of Die. Die is madeup of cores.  
   ![image](https://user-images.githubusercontent.com/16399079/182810513-09f5173b-618d-4070-8ef4-8e3e6759e1e8.png)
   2. Utilization factor is area taken up by standard cells forming the core to the area of core.
@@ -111,6 +111,14 @@ One good reference https://github.com/ShonTaware
   9. Block area for pins
   ![image](https://user-images.githubusercontent.com/16399079/182869503-d8c5de54-cbf5-4403-a589-cd131ec02350.png)
 
+  ## Library Binding and Placement
+  1.  Cells in netlist are square or rectangle shaped. combination and details of these cells forms a library. details like timing, area etc
+  2. Library may have different flavours which help designers pickup based on size timing shapes etc.
+  ![image](https://user-images.githubusercontent.com/16399079/183276842-e360a257-3707-49cb-b15c-c0b055aa89db.png)
+  3. Placement is placing of netlist (cells) onto a floor which is planned with input output pins, io padded and grid of supplies and preplaced cells if available. (Study more)
+  ![image](https://user-images.githubusercontent.com/16399079/183276863-cfc525d1-818d-4177-908e-d92e491c58bf.png)
+
+  4. 
 ## Future Scope
   1. Placement vs Floorplanning
  
@@ -134,6 +142,12 @@ One good reference https://github.com/ShonTaware
   <img width="973" alt="image" src="https://user-images.githubusercontent.com/16399079/183234512-5e6ac7dd-6656-48d6-a958-0914e366f185.png">
   Shoul have got this
   <img width="594" alt="image" src="https://user-images.githubusercontent.com/16399079/183234523-3f38ab4e-1a1f-4470-a119-ea3df7fdf8c6.png">
+  8. thanks to Nickson, magic command worked from shell. Earlier i was trying from openlane prompt.
+  <img width="773" alt="image" src="https://user-images.githubusercontent.com/16399079/183235261-0b65df3f-ca18-421c-92c2-b2adea07fc52.png">
+  9. S select V fit to window. left click bottom left- right click top right. click z for zooming
+  10. Observe different parts of floorplan and standard cells at bottom left corner.
+  ![image](https://user-images.githubusercontent.com/16399079/183276536-3f43b0fc-f03f-4d37-a74b-0b661875ef89.png)
+  
   
 
  </details>
