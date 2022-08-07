@@ -230,6 +230,8 @@ One good reference https://github.com/ShonTaware
   ![image](https://user-images.githubusercontent.com/16399079/183287304-7093d4f7-a486-4b74-a35f-befb5ea31570.png)
   4. Observing layout
   ![image](https://user-images.githubusercontent.com/16399079/183287372-22059863-d749-4819-a07e-1eefa96b799d.png)
+  5. Check functionality of  inverter using ngspice. first extract .ext file
+  <img width="650" alt="image" src="https://user-images.githubusercontent.com/16399079/183299910-460a0869-f9d8-43aa-bd9a-2963c44b8b9d.png">
 
   
  </details>
