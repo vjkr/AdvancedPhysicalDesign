@@ -239,9 +239,37 @@ One good reference https://github.com/ShonTaware
 <img width="435" alt="image" src="https://user-images.githubusercontent.com/16399079/183301735-bbb8cd79-09d6-422a-aee5-821a534cba43.png">
   8. rise time calculation 20% to 80%. usbtact xo values in ns. answer is 0.043ns
   <img width="245" alt="image" src="https://user-images.githubusercontent.com/16399079/183301888-27c99e86-f530-488e-ad26-047166161e1e.png">
-  Temperature assumed
+  Temperature 
   <img width="842" alt="image" src="https://user-images.githubusercontent.com/16399079/183301971-68ca3228-1c57-4c1b-b7d3-003ff372775c.png">
-  9. 
+  9. Didnt work with magic and layout part
+
+
+  
+ </details>
+
+<details>
+<summary> FAQ </summary>
+  
+ 1. 
+
+</details>
+
+# DAY -4 Pre-layout timing analysis and importance of good clock tree
+<details>
+<summary> THEORY </summary>
+  
+## 
+  1. 
+## Future Scope
+  1. 
+  
+</details>
+
+<details>
+<summary> LAB </summary>
+ 
+## Day 4 progress
+  1. Understanding shape of our inverter layout in magic
 
 
   
