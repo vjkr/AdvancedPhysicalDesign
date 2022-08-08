@@ -258,19 +258,47 @@ One good reference https://github.com/ShonTaware
 <details>
 <summary> THEORY </summary>
   
-## 
-  1. 
+## DELAY TABLES
+  1. Understanding delay helps in clock tree synthesis.
+  2. delay tables
+  ![image](https://user-images.githubusercontent.com/16399079/183431044-7cb90710-8c29-42f7-b9b4-42f27501a6d6.png)
+  3. Setup time for timing analysis
+
 ## Future Scope
   1. 
   
-</details>
+  </details>
 
 <details>
 <summary> LAB </summary>
  
 ## Day 4 progress
   1. Understanding shape of our inverter layout in magic
-
+  2. Open fd_sc_hd for skywater pdk to observe tracks.
+  ![image](https://user-images.githubusercontent.com/16399079/183350853-86facd2c-7da6-4d00-9573-6a9f60f52694.png)
+  3. got grids on for layout. have to learn layers and routing rules
+  ![image](https://user-images.githubusercontent.com/16399079/183351723-b3b28b3b-9402-45d7-8cec-6a5e20984374.png)
+  4. LEF file is obtained by 
+  ```lef write```` 
+  in tkcon window.
+  ![image](https://user-images.githubusercontent.com/16399079/183352333-3c22ae46-19a4-4be4-af0f-6493db03daaf.png)
+  5. copy lef file and libs to src of picorv32a
+  ![image](https://user-images.githubusercontent.com/16399079/183353935-ddba29bb-51e9-44b9-a864-a7468ae649ac.png)
+  6. Edit config file from picorv32a
+  ![image](https://user-images.githubusercontent.com/16399079/183355515-e3eeb1f6-216e-44da-a2c0-66d111157318.png)
+  7. New lef should be read from picorv32a. But getting errors. 
+  ###skipping this part.
+![image](https://user-images.githubusercontent.com/16399079/183427598-43dfc2f5-9158-414e-9686-676d27aef96b.png)
+  8. synthesis should have given instances of our inverter design.
+  9. Set variables in floorplan for performance. timing vs area constraints.
+  this should rectify slack violation
+  ![image](https://user-images.githubusercontent.com/16399079/183444296-a2d375b3-81c5-44a6-93b2-d0c1a6b69a0c.png)
+![image](https://user-images.githubusercontent.com/16399079/183444535-be163942-e525-41ae-88ab-9910d0665345.png)
+ slack should be improved by iterations
+  10. This would be awesome if implemented self
+  ![image](https://user-images.githubusercontent.com/16399079/183445601-1e9c2d8c-d128-47d3-9b4e-1f6bcfd3be84.png)
+  ###trying this part without improving slack.
+  11. 
 
   
  </details>
